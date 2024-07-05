@@ -1,15 +1,16 @@
-/* Header.css */
+
 
 .app-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #282c34;
+    padding: 10px;
+    background: url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051962_GFhQPOAXABmf7l706q89b2PFh6FnB1kI.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
     color: white;
     position: relative; 
     min-height: calc(100vh - 60px); 
-    max-width: 100%;
   }
   
   .app-wrapper-info {
@@ -17,11 +18,13 @@
     padding: 20px;
     order: 1; 
     text-align: left;
+
   }
   
   .app-header-h1 {
-    font-size: 5.5rem;
-    margin-bottom: 20px;
+    font-size: 4.5rem;
+  
+    
   }
   
   .p__opensans {
@@ -36,19 +39,22 @@
     flex: 0 0 auto; 
     margin-left: auto; 
     order: 2; 
+    margin-bottom: 20px;
   }
   
   .app-wrapper-img img {
     width: 100%;
-    max-width: 650px; 
+    max-width: 600px; 
     height: 400px;
   }
   
   @media screen and (max-width: 768px) {
     .app-header {
+       width: 100%;
       flex-direction: column;
       align-items: center;
       text-align: center;
+      padding-top: 10px;
     }
   
     .app-wrapper-img {

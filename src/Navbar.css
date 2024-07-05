@@ -1,29 +1,27 @@
-/* src/Navbar.css */
-
 .app-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    background-color: #333;
-    color: white;
     position: fixed;
+   background-color: transparent;
+    color: white;
+    top: 0;
     width: 100%;
     z-index: 1000;
   }
   
   .app-navbar-logo img {
-    width: 100px; /* Adjust the width of the logo */
+    width: 100px; 
     height: auto;
   }
   
   .app-navbar-links {
     list-style: none;
     display: flex;
-    gap: 40px; /* Adjust the gap between links */
-    justify-content: center; /* Center align links horizontally */
-    margin: 0; /* Remove default margin */
-    flex: 1; /* Takes remaining space */
+    gap: 50px;
+    justify-content: center; 
+    margin: 0;
+    flex: 1;
   }
   
   .app-navbar-links li {
@@ -33,18 +31,18 @@
   .app-navbar-links a {
     color: white;
     text-decoration: none;
-    font-size: 1.2em; /* Adjust the font size of links */
+    font-size: 1.2em; 
   }
   
   .app-navbar-login {
     list-style: none;
-    padding-right: 30px;
+    text-align: right;
   }
   
   .app-navbar-login a {
     color: white;
     text-decoration: none;
-    font-size: 1.2em; /* Adjust the font size of "Login" link */
+    font-size: 1.2em; 
   }
   
   .app-navbar-smallscreen {
@@ -73,7 +71,7 @@
   .app-navbar-smallscreen-links a {
     color: white;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2em; 
     margin-bottom: 20px;
   }
   
@@ -87,29 +85,26 @@
   @media screen and (max-width: 768px) {
     .app-navbar {
       padding: 10px;
-      justify-content: center; /* Center align items on small screens */
+      justify-content: center; 
     }
   
     .app-navbar-links {
-      display: none;
-    
+      display: none; 
     }
   
     .app-navbar-login {
       display: flex;
-      justify-content: center; /* Center "Login" link on small screens */
-      align-items: center;
-      margin-top: 10px; /* Adjust spacing */
-      padding-left: 300px;
-      padding-right: 220px;
-    }
+      justify-content: center; 
+      align-items: center; 
+      margin-top: 10px; 
   
     .app-navbar-login a {
-      font-size: 1.5em; /* Adjust font size of "Login" link on small screens */
+      font-size: 2.0em; 
     }
   
     .app-navbar-smallscreen {
-      display: block;
+      display: block; 
     }
   }
+}
   
