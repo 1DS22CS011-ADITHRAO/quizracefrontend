@@ -1,0 +1,38 @@
+.profile-statistics {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid blue; /* Adding blue border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-statistics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 3.5em;
+  }
+  
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stat span {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  .stat span:last-child {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .stat:last-child {
+    border-bottom: none;
+  }
+  

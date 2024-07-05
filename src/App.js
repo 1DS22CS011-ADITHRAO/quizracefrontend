@@ -1,19 +1,11 @@
-// src/App.js
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Navbar from './Navbar.js';
-import Header from './Header.js';
-import Login from './login.js';
 import './App.css';
-
+import ProfileStatistics from './profileStatistics.js';
+import './profileStatistics.css';
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <ProfileStatistics />
     </div>
   );
 };
